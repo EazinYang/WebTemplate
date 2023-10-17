@@ -1,0 +1,1 @@
+{"uuid":"3bfe5ddd-deb0-47e5-9222-1d8b9d772968","name":"TestContact","children":["386d502f-02a7-48a1-8f02-0df0d304d4b1"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1696389444871,"stop":1696389477634}],"afters":[],"start":1696389444807,"stop":1696389481199}

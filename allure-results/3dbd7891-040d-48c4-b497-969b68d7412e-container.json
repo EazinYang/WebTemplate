@@ -1,0 +1,1 @@
+{"uuid":"3dbd7891-040d-48c4-b497-969b68d7412e","name":"TestLogin","children":["7e6499a0-c4ba-4875-9c12-e079acc638f1"],"befores":[{"name":"beforeMethod","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1696673422249,"stop":1696673422263}],"afters":[],"start":1696673422194,"stop":1696673423400}
