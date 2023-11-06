@@ -1,8 +1,9 @@
 package page;
 
+import method.Method;
 import org.openqa.selenium.By;
 
-public class LoginPage extends Method{
+public class LoginPage extends Method {
     private By accountBtn=xpathOrId("//button[2]");
     private By username=xpathOrId("//input[contains(@placeholder,'Username')]");
     private By password=xpathOrId("//input[contains(@placeholder,'Password')]");

@@ -2,6 +2,7 @@ import driver.Config;
 import driver.Driver;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import org.testng.annotations.Test;
 import page.ContactPage;
 import page.HomePage;
 import page.LoginPage;

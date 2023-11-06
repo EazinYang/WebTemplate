@@ -2,9 +2,7 @@ package driver;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-
 import java.io.IOException;
-
 public class Config {
     public String url;
     public String username;

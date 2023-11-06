@@ -1,13 +1,11 @@
 package page;
 
+import method.Method;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-
 import java.util.ArrayList;
 import java.util.HashMap;
-
-public class ContactPage extends Method{
+public class ContactPage extends Method {
     private static By searchInput=xpathOrId("//input[contains(@placeholder,'Name / Email / Phone / Agent Id')]");
     public static By nameLabel=xpathOrId("//a[@class='ev-link']");
     public ArrayList<String> label=new ArrayList<>();

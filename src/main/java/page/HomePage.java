@@ -1,8 +1,9 @@
 package page;
 
+import method.Method;
 import org.openqa.selenium.By;
 
-public class HomePage extends Method{
+public class HomePage extends Method {
     private static By userIcon=xpathOrId("//button[contains(@title,'Admin Company')]");
     private String userName;
     private static By contacts=xpathOrId("//i[@class='ev-icon ev-icon-contact-s']");
