@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SavillsHK自动化测试用例]" parallel="classes">
+  <test name="冒烟测试(failed)" parallel="classes">
+    <classes>
+      <class name="page.TestContact">
+        <methods>
+          <include name="searchMyRecordsSuccess"/>
+          <include name="searchPhoneSuccess"/>
+          <include name="searchNameSuccess"/>
+          <include name="searchPhoneFail"/>
+          <include name="searchOwnerSuccess"/>
+          <include name="searchContactSourceSuccess"/>
+          <include name="searchRelatedCompanySuccess"/>
+          <include name="searchRolesSuccess"/>
+          <include name="searchNameFail"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- page.TestContact -->
+      <class name="page.TestLead">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- page.TestLead -->
+    </classes>
+  </test> <!-- 冒烟测试(failed) -->
+</suite> <!-- Failed suite [SavillsHK自动化测试用例] -->

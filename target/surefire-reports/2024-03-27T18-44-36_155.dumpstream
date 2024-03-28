@@ -1,0 +1,5 @@
+# Created at 2024-03-27T18:44:36.668
+Boot Manifest-JAR contains absolute paths in classpath 'D:\RepMaven\org\apache\maven\surefire\surefire-shared-utils\3.1.0\surefire-shared-utils-3.1.0.jar'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
